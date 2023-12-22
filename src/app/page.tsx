@@ -11,6 +11,7 @@ export default function Home() {
       <Toaster />
       <Button onClick={notify}>
         <h1>Say hi!</h1>
+        <span>...and you will get a greeting back.</span>
       </Button>
     </main>
   );
